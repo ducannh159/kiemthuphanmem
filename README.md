@@ -1,62 +1,106 @@
-Họ và tên: **Lê Đức Anh**  
-MSSV: **BIT230025**
+KIỂM THỬ PHẦN MỀM (SOFTWARE TESTING)
+I. Thông tin sinh viên
 
-<img width="1919" height="1078" alt="Screenshot 2026-01-05 164656" src="https://github.com/user-attachments/assets/42bcba05-c5cd-4fc4-922c-ab59639b5d14" />
+Họ và tên: Lê Đức Anh
 
-# baitapkiemthuvoiJunit
-# Student Analyzer
+Mã sinh viên: BIT230025
 
-## 📌 Giới thiệu
-**Student Analyzer** là một project Java sử dụng **Maven** nhằm phân tích dữ liệu sinh viên  
-(ví dụ: điểm số, xếp loại, thống kê…).  
+Ngành: Công nghệ Thông tin và Truyền thông
 
-Project có kèm **JUnit Test** để kiểm thử chức năng.
+Môn học: Kiểm thử phần mềm
 
-⚙️ Công nghệ sử dụng
+Bài tập thực hành: Tuần 1
 
-Java
+II. Kiểm thử trải nghiệm người dùng (UI/UX Testing)
+1. Mục tiêu bài thực hành
 
-Maven
+Làm quen với GitHub và cách quản lý mã nguồn
 
-JUnit (kiểm thử đơn vị)
+Hiểu khái niệm Kiểm thử trải nghiệm người dùng (UI/UX Testing)
 
-VS Code / IntelliJ IDEA
+Nhận thức được tầm quan trọng của giao diện và khả năng nhận diện thị giác trong phần mềm
 
-🚀 Cách chạy project
-1️⃣ Clone project
-git clone <link-repo>
+2. Công cụ sử dụng
 
-2️⃣ Di chuyển vào thư mục project
-cd kiemthuphanmem
+GitHub
 
-3️⃣ Biên dịch project
-mvn clean compile
+Trình duyệt Google Chrome
 
-🧪 Chạy kiểm thử (JUnit)
-mvn test
+Website kiểm thử UI:
+https://cantunsee.space/
 
+3. Nội dung thực hiện
+3.1. Tạo GitHub Repository
 
-📌 Kết quả test nằm trong thư mục:
+Tạo repository để lưu trữ toàn bộ bài tập thực hành của môn học
 
-target/surefire-reports
+Repository bao gồm:
 
-📝 Mô tả các file chính
-StudentAnalyzer.java
+File README.md (báo cáo)
 
-Chứa logic xử lý và phân tích dữ liệu sinh viên.
+Thư mục screenshots chứa hình ảnh kết quả kiểm thử
 
-StudentAnalyzerTest.java
+3.2. Trải nghiệm kiểm thử giao diện người dùng
 
-Chứa các test case để kiểm tra tính đúng đắn của các phương thức trong StudentAnalyzer.
+Truy cập website: https://cantunsee.space/
 
-📄 Yêu cầu hệ thống
+Thực hiện các bài kiểm tra liên quan đến:
 
-JDK 8 trở lên
+Độ tương phản màu sắc
 
-Maven 3.x
+Khả năng phân biệt chi tiết giao diện
 
-✨ Ghi chú
+Phát hiện các lỗi UI nhỏ
 
-Đảm bảo đã cài Java và Maven trước khi chạy project
+Mục tiêu: đạt điểm số cao nhất có thể
 
-Có thể mở project trực tiếp bằng VS Code hoặc IntelliJ IDEA
+3.3. Kết quả đạt được
+
+Điểm số: 8130
+
+Minh chứng:<img width="1919" height="1078" alt="Screenshot 2026-01-05 164656" src="https://github.com/user-attachments/assets/42bcba05-c5cd-4fc4-922c-ab59639b5d14" />
+
+Ảnh chụp kết quả có kèm dấu hiệu cá nhân
+
+Đăng nhập Chrome và email sinh viên trong ô Sign up
+
+Kết quả/Minh chứng: Kết quả Can't Unsee
+
+4. Nhận xét – Đánh giá
+
+Website cantunsee.space giúp người học nhận ra rằng:
+
+Một giao diện đẹp chưa chắc đã dễ nhìn
+
+Những sai sót nhỏ về màu sắc hoặc độ tương phản có thể gây khó khăn cho người dùng
+
+Qua bài thực hành, em hiểu rõ hơn vai trò của:
+
+Kiểm thử giao diện (UI Testing)
+
+Kiểm thử khả năng sử dụng (Usability Testing)
+
+Đây là những bước quan trọng trong kiểm thử phần mềm, đặc biệt đối với người dùng cuối.
+
+5. Kết luận Tuần 1
+
+Bài thực hành giúp em:
+
+Làm quen với GitHub
+
+Hiểu rằng kiểm thử phần mềm không chỉ dừng lại ở kiểm thử chức năng
+
+Nhận thức rõ tầm quan trọng của trải nghiệm người dùng trong quá trình phát triển phần mềm
+
+III. Tuần 2 – Kiểm thử phần mềm với JUnit
+
+Nội dung tập trung vào:
+
+Kiểm thử đơn vị (Unit Testing)
+
+Viết test case bằng JUnit
+
+Đánh giá kết quả kiểm thử thông qua mã nguồn
+
+👉 Xem chi tiết báo cáo và mã nguồn tại đây:
+Tuần 2 – Unit Test với JUnit
